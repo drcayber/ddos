@@ -36,6 +36,6 @@ def attack():
 
 while True:
     thread = threading.Thread(target=attack)
-    thread.start()
-```
+    thread.start()```
+    
 # Don't be disappointed
