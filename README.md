@@ -12,8 +12,7 @@ import threading # for Multitasking at the same time
 
 # Setting up a fake IP and attacking the target host
 
-‍‍‍‍```
-import socket
+‍‍‍‍```import socket
 import threading
 
 target = '127.0.0.1' # target ip
